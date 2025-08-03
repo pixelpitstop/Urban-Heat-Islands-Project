@@ -13,7 +13,7 @@ import os
 # CONFIG
 # =========================
 DATA_DIR = "data"
-TRAIN_FILE = os.path.join(DATA_DIR, "final_realistic_augmented_dataset.csv")
+TRAIN_FILE = os.path.join(DATA_DIR, "final_dataset.csv")
 PRED_FILE = os.path.join(DATA_DIR, "NDVI_LST_Chennai_July2025_with_LST.csv")
 OUTPUT_PRED_FILE = os.path.join(DATA_DIR, "utei_predictions.csv")
 OUTPUT_UTEI_SORTED = os.path.join(DATA_DIR, "utei_sorted.csv")
